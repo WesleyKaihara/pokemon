@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagePlanet{
+    width: 300px;
+    height: 300px;
+}
+
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.pokedex-content{
+    padding: 4vh 0 ;
+    background: rgba(180, 180, 240, 0.589);
+}
+
+.pokedex-content h1{
+    font-size: 5vh;
+    text-align: center;
+    padding-bottom: 3vh;
+    font-weight: bold;
+}
+
+.card{
+    width: 18%;
+    text-align: center;
+    border: 1px solid rgb(223, 223, 223);
+    background: rgba(171, 224, 255, 0.322);
+    color: #fff;
+}
+
+.card img{
+    width: 70%;
+}
+
+.card h2{
+    font-size: 3vh;
+    text-transform: capitalize;
+    padding: 1vh;
+}
+
+.card p {
+    font-size: 2vh;
+    padding-bottom: 2vh;
+}
+
+.grass{
+    background: green;
+}
+.fire{
+    background: red;
+}
+.water{
+    background: rgb(0, 0, 255);
+}
+.ground{
+    background: chocolate;
+}
+.poison{
+    background: violet;
+}
+.normal{
+    background: rgb(211, 211, 211);
+    color: #000;
+}
+.electric{
+    background: yellow;
+    color: #000;
+}
+.fighting{
+    background: sandybrown;
+}
+.fairy{
+    background: pink;
+}
+.bug{
+    background: springgreen;
+    color: #000;
+}
+.rock{
+    background: gray;
+}
+.ghost{
+    background: purple;
+}
+.ice{
+    background: cyan;
+    color: #000;
+}
+.psychic{
+    background:orange;
+}
+.dragon{
+    background: skyblue;
+}
+
+
+
+@media(max-width:1000px){
+    .card{
+        width: 20%;
+    }
+}
+@media(max-width:750px){
+    .card{
+        width: 30%;
+    }
+}
+@media(max-width:500px){
+    .card{
+        width: 70%;
+        margin: 10px;
+    }
+}
+
+
